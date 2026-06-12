@@ -38,3 +38,4 @@ Allows users to export their daily progress to a Markdown file, suitable for inc
 - Lucide React
 - Workbox (via vite-plugin-pwa)
 - idb (IndexedDB)
+\n\n## Future Modules\n- More body, mind, and soul modules coming soon!
