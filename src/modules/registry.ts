@@ -17,6 +17,7 @@ export interface ModuleConfig {
 }
 
 const Placeholder = React.lazy(() => import('../pages/PlaceholderModule'));
+const HabitBuilderComponent = React.lazy(() => import('./habit-builder/HabitBuilder'));
 
 export const modules: ModuleConfig[] = [
   {
@@ -26,7 +27,7 @@ export const modules: ModuleConfig[] = [
     route: '/habits',
     description: 'Build lasting daily habits for your body.',
     category: 'body',
-    component: Placeholder,
+    component: HabitBuilderComponent,
     hasNotifications: true,
     defaultSnoozeMinutes: 15,
     defaultReminderTimes: ['08:00', '12:00', '18:00'],
